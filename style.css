@@ -11,15 +11,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* font-family: 'Lato', sans-serif; */
-font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Fraunces', serif;
 }
 
 .all-product{
     display: flex;
 }
 .prod-img{
-    background-image: url(./image-product-desktop.jpg);
+    background-image: url(./img/image-product-desktop.jpg);
     width: 20rem;
     background-position: center;
     background-size: cover;
@@ -30,7 +30,9 @@ font-family: 'Montserrat', sans-serif;
 .right-product{
     background-color: #fff;
     width: 20rem;
-    padding: 4rem 2rem;
+    padding: 2rem 2rem;
+    border-bottom-right-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
 }
 
 .perfume{
@@ -39,12 +41,14 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .perfume-type{
-    padding: 1.5rem 0;
+    padding: 1rem 0;
 }
 
 .perfume-descr{
-    line-height: 1.5rem;
+    line-height: 1.2rem;
     padding-bottom: 1rem;
+    font-size: 12px;
+    color: hsl(228, 12%, 48%);
 }
 
 .price-tag{
@@ -70,12 +74,19 @@ font-family: 'Montserrat', sans-serif;
     border-radius: 5px;
     border: none;
     background:  hsl(158, 36%, 37%);
-    color: black;
+    color: white;
 }
 
 .cart-btn:hover {
-    background: red;
-    color: white;
-    border: 1px solid red;
+    background: hsl(158, 95%, 48%);
+    color: black;
+}
+
+.cart-btn img {
+    padding-right: 0.5rem;
+}
+
+.cart-btn img:hover{
+    color: black
 }
 
